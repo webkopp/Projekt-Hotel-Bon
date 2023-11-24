@@ -35,3 +35,29 @@ body {
     background-attachment: scroll;
     height: 100vh;
 }
+
+/* footer */
+
+footer {
+    width: 100vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        "hotels links subs"
+        "hotels links subs"
+        "hotels links subs"
+        "hotels links subs"
+        "hotels links subs";
+    justify-content: space-between;
+    gap: 1em;
+    background-color: #111111;
+}
+
+/* .coverfoto {
+    grid-area: coverfoto;
+} */
+
+.hotlel img {
+    width: 100%;
+}
