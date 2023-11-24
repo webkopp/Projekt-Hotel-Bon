@@ -8,6 +8,11 @@
     src: url('../fonts/Ubuntu-Medium.ttf');
 }
 
+@font-face {
+    font-family: 'Ubuntu-light';
+    src: url('../fonts/Ubuntu-Light.ttf');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -194,17 +199,63 @@ footer {
         "hotels links subs"
         "hotels links subs"
         "hotels links subs";
-    justify-content: space-around;
-    gap: 1em;
+    align-items: stretch;
+    justify-items: center;
     background-color: #111111;
+    padding: 5% 5%;
 }
 
 .hotels {
+    display: grid;
     grid-area: hotels;
-    background-color: aqua;
-    justify-items: flex-start;
+    justify-content: space-between;
+    gap: 5%;
 }
 
 .hotels img {
     width: 20%;
+    padding-bottom: 2%;
+}
+
+.hotels h4 {
+    font-family: 'Ubuntu-med';
+    font-size: 2em;
+    text-align: left;
+    color: var(--color-font-white);
+}
+
+.hotels p {
+    font-family: 'Ubuntu-light';
+    font-size: 2em;
+    color: var(--color-font-white);
+}
+
+.links {
+    display: grid;
+    grid-area: links;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.links a {
+    font-family: 'Ubuntu';
+    font-size: 2em;
+    text-align: left;
+}
+
+.links a:hover {
+    filter: opacity(0.5);
+}
+
+.subs {
+    display: grid;
+    grid-area: subs;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.subs p {
+    font-family: 'Ubuntu-med';
+    font-size: 3em;
+    color: var(--color-font-white);
 }
