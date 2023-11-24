@@ -18,3 +18,20 @@ html {
     font-size: 10px;
     font-family: 'Ubuntu';
 }
+
+body {
+    width: 100vw;
+    height: auto;
+}
+
+/* header */
+
+/* main */
+
+.hero {
+    background-image: url('../img/hero_image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 100vh;
+}
