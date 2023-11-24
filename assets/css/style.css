@@ -14,14 +14,49 @@
     box-sizing: border-box;
 }
 
+:root {
+    --color-font-white: #fff;
+    --color-font-gold: #957554;
+    --color-button: #DFAA5B;
+}
+
+
 html {
     font-size: 10px;
     font-family: 'Ubuntu';
+    text-decoration: none;
 }
 
 body {
     width: 100vw;
     height: auto;
+}
+
+body h1 {
+    font-size: 80px;
+    font-family: var(--color-font-white);
+}
+
+body p, a {
+    font-size: 24px;
+    font-family: 'Ubuntu-med';
+    color: var(--color-font-gold);
+}
+
+body a {
+    text-decoration: none;
+}
+
+body h2 {
+    font-size: 45px;
+    font-family: 'Ubuntu-med';
+    color: var(--color-font-gold);
+}
+
+body h3 {
+    font-size: 40px;
+    font-family: 'Ubuntu-med';
+    color: var(--color-font-white);
 }
 
 /* header */
