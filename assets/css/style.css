@@ -115,8 +115,8 @@ nav a:hover {
 }
 
 .hero a {
-    width: 20%;
-    min-height: auto;
+    width: 300px;
+    height: auto;
     background-color: var(--color-button);
     border-radius: 0.5em;
 }
@@ -149,6 +149,33 @@ nav a:hover {
     margin: 10px;
 }
 
+.standard, .deluxe {
+
+}
+
+.rooms div img {
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.book {
+    padding: 20%;
+}
+
+.book a {
+    width: 300px;
+    height: auto;
+    background-color: var(--color-button);
+    padding: 20px 0;
+    border-radius: 0.5em;
+}
+    
+.book a:hover {
+    filter: opacity(0.9);
+    background-color: var(--color-font-gold);
+}
 
 
 /* footer */
