@@ -154,19 +154,33 @@ nav a:hover {
     width: 50%;
 }
 
-.rooms img {
-    width: 50%;
+.rooms {
+    background-color: darkgray;
 }
 
+.rooms div h3, a {
+    z-index: 1;
+}
 
-.rooms a {
+.rooms div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rooms img {
+    width: 630px;
+}
+
+.rooms div a {
     height: auto;
     background-color: var(--color-button);
     border-radius: 0.5em;
     padding: 2% 7%;
 }
-    
-.rooms a:hover {
+
+.rooms div a:hover {
     filter: opacity(0.9);
     background-color: var(--color-font-gold);
 }
