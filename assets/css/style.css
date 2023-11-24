@@ -63,7 +63,7 @@ body h2 {
 }
 
 body h3 {
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Ubuntu-med';
     color: var(--color-font-white);
 }
@@ -130,38 +130,45 @@ nav a:hover {
     background-color: var(--color-font-gold);
 }
 
-.facil ul {
+.facil div {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    align-items: start;
 }
 
 
-.facil a, p {
-    font-family: 'Ubuntu';
+.facil a {
+    font-family: 'Ubuntu-light';
     font-size: 24px;
     font-weight: lighter;
     color: var(--color-font-gold);
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    gap: 10%;
+}
+
+.facil a:hover {
+    filter: opacity(0.5);
 }
 
 .facil img {
     margin: 10px;
+    width: 50%;
 }
 
-.standard, .deluxe {
-
+.rooms img {
+    width: 50%;
 }
 
-.rooms div img {
-    width: 40vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+
+.rooms a {
+    height: auto;
+    background-color: var(--color-button);
+    border-radius: 0.5em;
+    padding: 2% 7%;
+}
+    
+.rooms a:hover {
+    filter: opacity(0.9);
+    background-color: var(--color-font-gold);
 }
 
 .book {
@@ -219,14 +226,14 @@ footer {
 
 .hotels h4 {
     font-family: 'Ubuntu-med';
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: left;
     color: var(--color-font-white);
 }
 
 .hotels p {
     font-family: 'Ubuntu-light';
-    font-size: 2em;
+    font-size: 1.5em;
     color: var(--color-font-white);
 }
 
@@ -239,7 +246,7 @@ footer {
 
 .links a {
     font-family: 'Ubuntu';
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: left;
 }
 
@@ -256,6 +263,6 @@ footer {
 
 .subs p {
     font-family: 'Ubuntu-med';
-    font-size: 3em;
+    font-size: 2.5em;
     color: var(--color-font-white);
 }
