@@ -30,6 +30,7 @@ html {
     font-size: 10px;
     font-family: 'Ubuntu';
     text-decoration: none;
+    background-color: lightblue;
 }
 
 body {
@@ -170,10 +171,8 @@ nav a:hover {
     z-index: -1;
 }
 
-.twin-room, .standard-room, .view-room, .deluxe-room {
-    position: relative;
-    top: 50px;
-    z-index: 1;
+.rooms div h3 {
+    display: flex;
 }
 
 .rooms div a {
