@@ -157,18 +157,20 @@ nav a:hover {
     width: 50%;
 }
 
-/* container rooms mit inline-block */
+/* container rooms mit inline-flex */
 
 .rooms div {
-    display: inline-block;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
     background-color: aqua;
-
 }
 
 .rooms img {
     width: 40vw;
-    /* z-index: -2; */
+    /* z-index: -1; */
 }
+
 
 .rooms div a {
     height: auto;
