@@ -163,12 +163,17 @@ nav a:hover {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
-    background-color: aqua;
 }
 
 .rooms img {
     width: 40vw;
-    /* z-index: -1; */
+    z-index: -1;
+}
+
+.twin-room, .standard-room, .view-room, .deluxe-room {
+    position: relative;
+    top: 50px;
+    z-index: 1;
 }
 
 .rooms div a {
