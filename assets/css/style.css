@@ -68,7 +68,7 @@ body h3 {
     color: var(--color-font-white);
 }
 
-/* header */
+/* header mit display flex*/
 
 header {
     display: flex;
@@ -98,6 +98,7 @@ nav a:hover {
 }
 
 /* main */
+/* section hero */
 
 .hero {
     background-image: url('../img/hero_image.png');
@@ -130,6 +131,8 @@ nav a:hover {
     background-color: var(--color-font-gold);
 }
 
+/* section facil */
+
 .facil div {
     display: flex;
     flex-direction: row;
@@ -153,6 +156,8 @@ nav a:hover {
     margin: 10px;
     width: 50%;
 }
+
+/* container rooms */
 
 .rooms {
     background-color: darkgray;
@@ -182,6 +187,8 @@ nav a:hover {
     background-color: var(--color-font-gold);
 }
 
+/* section book */
+
 .book {
     width: 100vw;
     padding: 10%;
@@ -203,8 +210,8 @@ nav a:hover {
     background-color: var(--color-font-gold);
 }
 
-
-/* footer */
+/* footer mit grid */
+/* section hotels */
 
 footer {
     width: 100vw;
@@ -248,6 +255,8 @@ footer {
     color: var(--color-font-white);
 }
 
+/* section links */
+
 .links {
     display: grid;
     grid-area: links;
@@ -264,6 +273,8 @@ footer {
 .links a:hover {
     filter: opacity(0.5);
 }
+
+/* section subs mit forms */
 
 .subs {
     display: grid;
@@ -305,6 +316,8 @@ input[type="submit"] {
 input[type="submit"]:hover {
     filter: opacity(0.5);
 }
+
+/* media querie mobil */
 
 @media only screen and (max-width: 576px) {
     html {
