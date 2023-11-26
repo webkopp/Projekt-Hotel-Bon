@@ -160,14 +160,12 @@ nav a:hover {
 /* container rooms */
 
 .rooms {
-    background-color: darkgray;
+    background-color: darkcyan;
 }
 
 .rooms div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
+
 }
 
 .rooms img {
