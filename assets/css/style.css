@@ -157,20 +157,17 @@ nav a:hover {
     width: 50%;
 }
 
-/* container rooms */
-
-.rooms {
-    background-color: darkcyan;
-}
+/* container rooms mit inline-block */
 
 .rooms div {
     display: inline-block;
+    background-color: aqua;
 
 }
 
 .rooms img {
     width: 40vw;
-    /* z-index: -1; */
+    /* z-index: -2; */
 }
 
 .rooms div a {
