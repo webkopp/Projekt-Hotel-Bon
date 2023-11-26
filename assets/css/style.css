@@ -158,12 +158,12 @@ nav a:hover {
     background-color: darkgray;
 }
 
-/* .rooms div {
+.rooms div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-} */
+}
 
 .rooms img {
     width: 40vw;
@@ -280,7 +280,7 @@ footer {
 
 label {
     font-size: 1.5rem;
-    margin-right:20px ;
+    margin-right: 20px;
 }
 
 .mail {
@@ -319,6 +319,4 @@ input[type="submit"]:hover {
         align-items: center;
         justify-content: stretch;
     }
-
-
 }
