@@ -168,11 +168,13 @@ nav a:hover {
 
 .rooms img {
     width: 40vw;
-    z-index: -1;
+    z-index: 1;
 }
 
-.rooms div h3 {
-    display: flex;
+.rooms h3, a {
+    display: inline-flexbox;
+    z-index: 2;
+    position: relative;
 }
 
 .rooms div a {
